@@ -1,24 +1,3 @@
-"""
-================================================================================
-APPLICATION STREAMLIT - Détection de Maladies Cutanées
-================================================================================
-Interface web pour utiliser votre modèle PyTorch de classification d'images
-
-FICHIERS NÉCESSAIRES:
-1. app.py (ce fichier)
-2. skin_disease_classifier.pth (votre modèle entraîné)
-3. requirements.txt (dépendances)
-
-INSTALLATION:
-pip install streamlit torch torchvision pillow
-
-LANCEMENT:
-streamlit run app.py
-
-L'application s'ouvrira automatiquement dans votre navigateur!
-================================================================================
-"""
-
 import streamlit as st
 from PIL import Image
 import time
