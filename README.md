@@ -1,12 +1,10 @@
 ---
-title: Skin Lesion classification
-emoji: 🚀
-colorFrom: red
-colorTo: red
+title: Skin Lesion Classification
+emoji: 📊
+colorFrom: gray
+colorTo: green
 sdk: docker
-app_port: 7860
-tags:
-  - streamlit
 pinned: false
+license: mit
 short_description: classification of a skin lesion
 ---
