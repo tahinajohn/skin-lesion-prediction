@@ -1,0 +1,5 @@
+mpox/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
