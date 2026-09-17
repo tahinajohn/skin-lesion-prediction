@@ -119,7 +119,12 @@ def main():
     # CHARGEMENT DU MODÈLE
     with st.spinner("🔄 Chargement du modèle..."):
         try:
-            model, class_names, device = load_model('skin_disease_classifier.pth')
+            #model, class_names, device = load_model('skin_disease_classifier.pth')
+            model, class_names, device = load_model(
+                repo_id="ratah001/skin-disease-model",
+                filename="skin_disease_classifier_real.pth"
+            )
+
             transform = get_transforms()
             st.success("✅ Modèle chargé avec succès!")
         except Exception as e:
